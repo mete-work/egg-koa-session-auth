@@ -1,0 +1,39 @@
+{
+  "name": "@mete-work/egg-koa-session-auth",
+  "version": "1.0.0",
+  "description": "session plugin for egg",
+  "eggPlugin": {
+    "name": "session"
+  },
+  "files": [
+    "config",
+    "app",
+    "app.js"
+  ],
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "session",
+    "cookie"
+  ],
+  "dependencies": {
+    "koa-session-auth": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "pub": "npm publish --access public",
+    "postpublish": "node scripts/published.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mete-work/egg-koa-session-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mete-work/egg-koa-session-auth/issues"
+  },
+  "homepage": "https://github.com/mete-work/egg-koa-session-auth#readme",
+  "author": "godotdotdot"
+}
